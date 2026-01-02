@@ -1,6 +1,6 @@
 # WorkTimer - Time Tracking App
 
-A Flutter mobile app for tracking time spent on different tasks with accurate persistence and Excel export capabilities.
+A mobile app for tracking time spent on different tasks with persistence and Excel export capabilities.
 
 ## Features
 
