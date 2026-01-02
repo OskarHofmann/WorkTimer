@@ -118,38 +118,3 @@ lib/
 3. **Stop Timer**: Press the STOP button on timer screen
 4. **View History**: Use the History tab to view past data
 5. **Export**: Use the Export button to generate Excel file
-
-## Troubleshooting
-
-### "flutter: command not found"
-- Make sure Flutter is added to your PATH
-- Restart your terminal/command prompt
-
-### "No devices found"
-- Start your Android emulator
-- Or connect your phone with USB debugging enabled
-- Run `flutter devices` to verify
-
-### Build errors
-- Run `flutter clean` then `flutter pub get`
-- Make sure Android SDK is properly installed
-
-### App data location
-- Data is stored in app's private storage
-- Path: `/data/data/com.worktimer.app/databases/`
-- Survives app updates, only deleted when app is uninstalled
-
-## Development Tips
-
-- Use `flutter run --release` for production build (faster, smaller)
-- Use `flutter build apk` to create installable APK file
-- View logs: `flutter logs`
-- Debug in VS Code: Install Flutter extension, press F5
-
-## Future Enhancements
-
-- [ ] Automatic task sorting by usage
-- [ ] Cloud backup to server
-- [ ] Background notifications
-- [ ] Weekly/monthly reports
-- [ ] Data visualization charts
